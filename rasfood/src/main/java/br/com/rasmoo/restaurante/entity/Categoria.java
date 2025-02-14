@@ -22,6 +22,12 @@ public class Categoria {
     * Unidirecional (De um lado para outro - o cardapio tem ocnhecimento da categoria mas a categoria noo)
 
      */
+
+    public Categoria(Integer id, String nomeCategoria) {
+        this.id = id;
+        this.nomeCategoria = nomeCategoria;
+    }
+
     public Categoria(String nomeCategoria) {
         this.nomeCategoria = nomeCategoria;
     }
@@ -32,10 +38,7 @@ public class Categoria {
     }
 
 
-    public Categoria(Integer id, String nomeCategoria) {
-        this.id = id;
-        this.nomeCategoria = nomeCategoria;
-    }
+
 
     public Integer getId() {
         return id;

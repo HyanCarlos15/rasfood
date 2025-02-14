@@ -34,6 +34,9 @@ public class Cardapio {
 
     }
 
+    public Cardapio(String nome, String descricao, boolean disponivel, BigDecimal valor, Categoria categoria) {
+    }
+
     public Integer getId() {
         return id;
     }
@@ -94,6 +97,7 @@ public class Cardapio {
     public void setCategoria(Categoria categoria) {
         this.categoria = categoria;
     }
+
 
     @Override
     public String toString() {
